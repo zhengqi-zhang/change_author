@@ -31,7 +31,7 @@ def word_menu(dir_path):
 
 		# 1、显示文档作者信息
 		if action_str == "1":
-			documen_list, filepath_list, core_properties_list = handle_file(dir_path)
+			document_list, filepath_list, core_properties_list = handle_file(dir_path)
 			info_show(filepath_list, core_properties_list)
 
 		# 2、修改文档作者信息
